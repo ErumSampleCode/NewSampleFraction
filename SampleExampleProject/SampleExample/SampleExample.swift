@@ -55,7 +55,7 @@ final class SampleExample: XCTestCase {
         XCTAssertEqual(calculate("exit"), "Program exited")
     }
     
-   /* private func calculate(_ input: String) -> String {
+ private func calculate(_ input: String) -> String {
         let components = input.components(separatedBy: .whitespaces)
         
         guard components.count == 3 else {
@@ -105,7 +105,7 @@ final class SampleExample: XCTestCase {
         
         print("Invalid fraction format")
         return nil
-    }*/
+    }
     
     
     override func setUpWithError() throws {
